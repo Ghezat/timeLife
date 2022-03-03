@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    margin: 20px;
+}
+
+
+.colorNav{
+    background-color: #fbf27d;
+}
+
+
+section{
+    border: 3px ridge #e2d43a;
+    padding: 20px;
+    width: 50%;
+    background-color: #f7f1a8;
+    margin: 3px;
+}
+
+.inp{
+   width: 70px; 
+}
+
+.inpYear{
+    width: 90px; 
+}
+
+.containerNav{
+    display: flex;
+}
+
+
+.divContainerImg{
+    margin-left: 20px;
+    
+}
+
+.divContainerTime{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+
+.time{
+    padding: 0px 4px;
+    margin: 4px;
+    background-color: rgb(235, 244, 252);
+    color: black;
+    font-size: 26px;
+    box-shadow: 1px 1px 0px 1px  inset black;
+}
+
+.btc-i{
+    border: 1px solid red;
+    margin-left: 35px;
+}
+
+.sigT{
+    font-size: 26px;
+}
+
+.resultados, .dormidos{
+    display: block;
+    border: 1px solid red;
+    margin: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #fbf27d;
+}
+
